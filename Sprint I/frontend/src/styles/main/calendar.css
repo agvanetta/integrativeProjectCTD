@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.custom-calendar{
+   font-family:'Roboto', sans-serif;
+   padding: 10px;
+}
+
+.rmdp-header-values {
+   font-weight: bold;
+}
+.rmdp-button{
+   cursor: pointer;
+   background-color: #1DBEB4!important;
+   border: 0;
+   color: white;
+   height: 35px;
+   width: 190px;
+   left: 466px;
+   top: 301px;
+   border-radius: 5px;
+   margin-right: 20px;
+}
+.rmdp-arrow-container{
+   background: white;
+}
+.rmdp-arrow-container:hover{
+   opacity: 0.3;
+   padding-top: 2px;
+   
+}
+
+.teal .rmdp-week-day{
+   color: #4a4e79;
+}
+
+.teal .rmdp-day.rmdp-today span{
+   background-color: #1DBEB4;
+   font-weight: 600;
+}
+.rmdp-week{
+   align-items: center;
+   padding: 3px;
+}
+.rmdp-range.start {
+   border-radius: 50%;
+   background-color: #1DBEB4;
+}
+
+.rmdp-wrapper{
+   padding: 20px;
+}
+
+.rmdp-range-picker-footer{
+   margin-top: -30px;
+}
+
+.teal .rmdp-range{
+   margin: 3px;
+   width: 28px;
+   height: 28px;
+   background-color: #1DBEB4;
+   border-radius: 50%;
+}
+
+.rmdp-header-values div{
+   display: none !important; 
+}
+
+
+.date input {
+   color: #545776;
+   font-size: 14px;
+}
+
+.rmdp-range-picker-footer{
+   display: flex;
+}
+@media (min-width: 768px) {
+.custom-calendar{
+   padding: 30px;
+
+}
+
+.rmdp-button{
+   cursor: pointer;
+   align-items: flex-end;
+   background-color: #1DBEB4;
+   border: 0;
+   color: white;
+   height: 35px;
+   width: 190px;
+   left: 466px;
+   top: 301px;
+   border-radius: 5px;
+}
+
+}
