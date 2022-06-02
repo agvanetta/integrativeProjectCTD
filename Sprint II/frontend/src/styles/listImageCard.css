@@ -1,0 +1,164 @@
+.listImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: var(--second-color);
+  padding: 22px 0px 38px;
+  margin-bottom: 7.9vh;
+}
+
+.listImageContainer h2 {
+  color: #ffffff;
+  text-align: left;
+  width: 95%;
+}
+
+.cardListImageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+  padding-bottom: 13px;
+  margin: 8px 0px;
+  background-color: #ffffff;
+  border-radius: 0px 0px 8px 8px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.cardListImageContainer .imgContainer {
+  height: 100%;
+}
+
+.imgContainer img {
+  border-radius: 0px 0px 8px 8px;
+}
+.characteristics {
+  display: flex;
+  flex-direction: column;
+  width: 93.1%;
+}
+.characteristics h2 {
+  color: var(--second-color);
+  padding: 5px 0px;
+}
+
+.characteristics h5,
+.characteristics p {
+  color: var(--second-color);
+  padding: 10px 0px;
+}
+
+.characteristics h5:first-of-type {
+  color: #9d9a9a;
+}
+
+.characteristics p {
+  text-align: left;
+}
+
+.characteristics p span {
+  color: var(--principal-color);
+  cursor: pointer;
+}
+
+.characteristics button {
+  cursor: pointer;
+  align-self: center;
+  width: 100%;
+  height: 40px;
+  box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.12);
+  background-color: var(--principal-color);
+  border: 1px var(--principal-color) solid;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.characteristics button:hover {
+  background-color: #18a79d;
+  transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+  .listImageContainer {
+    background-color: var(--fourth-color);
+    padding-bottom: 12px;
+    margin-bottom: 5.8vh;
+  }
+  .listImageContainer h2 {
+    color: var(--second-color);
+    width: 92.5%;
+  }
+  .cardListImageContainer {
+    flex-direction: row;
+    align-items: stretch;
+    width: 92.5%;
+    max-width: 730px;
+    height: 280px;
+    max-height: 300px;
+    border-radius: 8px;
+    padding-top: 9px;
+    min-height: 279px;
+  }
+  .cardListImageContainer .imgContainer {
+    width: 48.6%;
+    max-height: 300px;
+  }
+  .imgContainer img {
+    border-radius: 0 8px 8px 0;
+    height: 100%;
+  }
+  .characteristics {
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 0px 10px 0px 20px;
+  }
+  .characteristics h2,
+  .characteristics h5,
+  .characteristics p {
+    padding-left: 0px;
+  }
+  .characteristics h2,
+  .characteristics p {
+    padding: 5px 0px 10px;
+  }
+  .characteristics p {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .listImageContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 7.6vh;
+  }
+  .listImageContainer h2 {
+    width: 94%;
+  }
+  .cardListImageContainer {
+    width: 46.5%;
+    height: 36.9vh;
+    max-height: 300px;
+    margin: 8px 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+  }
+
+  .imgContainer img {
+    border-radius: 8px;
+  }
+
+  .cardListImageContainer .imgContainer {
+    border-radius: 8px;
+    max-height: 300px;
+  }
+  .characteristics h2 {
+    padding-bottom: 5px;
+  }
+  .characteristics p {
+    padding-top: 5px;
+  }
+}
