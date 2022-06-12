@@ -97,7 +97,7 @@
 }
 
 .react-datepicker__month-container{
-    padding: 10px 20px;
+    padding: 10px 40px;
     height: 280px;
 }
 
@@ -113,6 +113,7 @@
     margin-top: 130px;
     margin-right: 20px;
     margin-left: 20px;
+    z-index: 0 !important;
 }
 
 .react-datepicker__navigation-icon::before{
@@ -169,6 +170,12 @@
 }
 
 @media (max-width: 900px) {
+    .productsCalendar__calendar{
+        width: 700px;
+    }
+    .react-datepicker__month-container{
+        padding: 0 40px;
+    }
     .productsCalendar__blockCalendar{
         flex-direction: column;
     }

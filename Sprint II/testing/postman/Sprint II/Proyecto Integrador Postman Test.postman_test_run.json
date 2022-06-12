@@ -1,0 +1,321 @@
+{
+	"id": "f7e76783-3554-45ed-88ef-015a90ba9e21",
+	"name": "Proyecto Integrador Postman Test",
+	"timestamp": "2022-06-03T23:36:14.136Z",
+	"collection_id": "18029196-fec838cd-202a-4431-b3dc-d64fe7acfa52",
+	"folder_id": 0,
+	"environment_id": "18029196-36394c45-601a-42ea-9976-85061cca5b7b",
+	"totalPass": 13,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "eb7fb490-45c2-4b8d-bceb-5dda4f4e7adc",
+			"name": "Create",
+			"url": "http://localhost:8080/categorias",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "9630312e-7569-48b4-be44-04cec20bdfc2",
+			"name": "Find all",
+			"url": "http://localhost:8080/categorias/list",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Categories load must be valid and have a body": true,
+				"Categories schema is valid": true
+			},
+			"testPassFailCounts": {
+				"Categories load must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Categories schema is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Categories load must be valid and have a body": true,
+					"Categories schema is valid": true
+				}
+			]
+		},
+		{
+			"id": "4af67d10-2a7d-4e1f-8746-a141ca15f12a",
+			"name": "Create",
+			"url": "http://localhost:8080/productos",
+			"time": 15,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "6b6a17b4-28c0-45d7-9965-c7a5e914cbb4",
+			"name": "Find By Id",
+			"url": "http://localhost:8080/productos/4",
+			"time": 16,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Products load must be valid and have a body": true,
+				"Products schemas is valid": true
+			},
+			"testPassFailCounts": {
+				"Products load must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Products schemas is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				16
+			],
+			"allTests": [
+				{
+					"Products load must be valid and have a body": true,
+					"Products schemas is valid": true
+				}
+			]
+		},
+		{
+			"id": "dc01330e-2277-49c2-9e3d-d45b7d3c39e2",
+			"name": "Find All",
+			"url": "http://localhost:8080/productos/list",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Products load must be valid and have a body": true,
+				"Products schemas is valid": true
+			},
+			"testPassFailCounts": {
+				"Products load must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Products schemas is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Products load must be valid and have a body": true,
+					"Products schemas is valid": true
+				}
+			]
+		},
+		{
+			"id": "48718233-f243-4855-8a5f-045926eb55c0",
+			"name": "Create",
+			"url": "http://localhost:8080/imagenes",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "07d2d519-1e0b-42b3-9e54-d5a81d493de7",
+			"name": "Find All",
+			"url": "http://localhost:8080/imagenes/list",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Products load must be valid and have a body": true,
+				"Products schemas is valid": true
+			},
+			"testPassFailCounts": {
+				"Products load must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Products schemas is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Products load must be valid and have a body": true,
+					"Products schemas is valid": true
+				}
+			]
+		},
+		{
+			"id": "ed1fdd49-c65a-4328-ad21-5daa35b8f428",
+			"name": "Update",
+			"url": "http://localhost:8080/categorias/update",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful UPDATE request": true
+			},
+			"testPassFailCounts": {
+				"Successful UPDATE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Successful UPDATE request": true
+				}
+			]
+		},
+		{
+			"id": "24b39b06-7eb1-4c7a-b5cd-fd409e0e5ddd",
+			"name": "Delete",
+			"url": "http://localhost:8080/categorias/5",
+			"time": 14,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				14
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 143,
+	"collection": {
+		"requests": [
+			{
+				"id": "eb7fb490-45c2-4b8d-bceb-5dda4f4e7adc",
+				"method": "POST"
+			},
+			{
+				"id": "9630312e-7569-48b4-be44-04cec20bdfc2",
+				"method": "GET"
+			},
+			{
+				"id": "4af67d10-2a7d-4e1f-8746-a141ca15f12a",
+				"method": "POST"
+			},
+			{
+				"id": "6b6a17b4-28c0-45d7-9965-c7a5e914cbb4",
+				"method": "GET"
+			},
+			{
+				"id": "dc01330e-2277-49c2-9e3d-d45b7d3c39e2",
+				"method": "GET"
+			},
+			{
+				"id": "48718233-f243-4855-8a5f-045926eb55c0",
+				"method": "POST"
+			},
+			{
+				"id": "07d2d519-1e0b-42b3-9e54-d5a81d493de7",
+				"method": "GET"
+			},
+			{
+				"id": "ed1fdd49-c65a-4328-ad21-5daa35b8f428",
+				"method": "PUT"
+			},
+			{
+				"id": "24b39b06-7eb1-4c7a-b5cd-fd409e0e5ddd",
+				"method": "DELETE"
+			}
+		]
+	}
+}
