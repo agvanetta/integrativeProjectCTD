@@ -1,0 +1,29 @@
+clugaresInteres
+
+id
+nombre
+direccion
+introduccion
+descripcion
+puntaje
+costo promedio visita
+paginaWeb (masInfo)
+
+
+imagenes ***
+ciudad_id
+
+-  banner
+https://www.tripadvisor.com.ar/Attraction_Review-g294318-d668949-Reviews-Santuario_Historico_de_Machu_Picchu-Machu_Picchu_Sacred_Valley_Cusco_Region.html
+
+-  Alojamientos cerca
+
+-  visitar sitio web
+
+https://www.tripadvisor.com.ar/Attraction_Review-g294318-d668949-Reviews-Santuario_Historico_de_Machu_Picchu-Machu_Picchu_Sacred_Valley_Cusco_Region.html
+
+https://www.turismocity.com.ar/hoteles
+
+https://www.booking.com/attractions/index.es-ar.html?label=gen173nr-1DCAEoggI46AdIM1gEaAyIAQGYASy4ARfIAQzYAQPoAQGIAgGoAgO4AsfC05UGwAIB0gIkNjJlZTZlN2QtYWNjMC00NzVhLWIzOTQtY2MyNjQ1N2E2ZmI12AIE4AIB&sid=06b675686d83225830bf270779caed74
+
+
