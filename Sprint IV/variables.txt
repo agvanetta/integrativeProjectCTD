@@ -1,0 +1,9 @@
+APP_DB_HOST=localhost;
+APP_DB_PORT=3306;
+APP_DB_NAME=digitalbooking;
+APP_DB_USER=root;
+APP_DB_PASS=_;
+APP_EMAIL_USER=help.digitalbooking@gmail.com;
+APP_EMAIL_PASS=mwdhgslejcknxbyp;
+APP_HOST_API= http://localhost:8080;
+APP_HOST_FRONT= http://localhost:3000
