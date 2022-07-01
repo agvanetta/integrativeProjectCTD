@@ -431,7 +431,7 @@ UNLOCK TABLES;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'NO_AUTO_VALUE_ON_ZERO' */ ;
 DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` PROCEDURE `findAllProductByScore`()
+CREATE PROCEDURE `findAllProductByScore`()
 BEGIN
 UPDATE productos prod INNER JOIN puntuaciones punt ON prod.id = punt.producto_id
 SET prod.puntuacion_promedio = (SELECT round(avg(punt.puntuacion),2)*2 FROM puntuaciones punt where prod.id = punt.producto_id );
@@ -452,7 +452,7 @@ DELIMITER ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
 /*!50003 SET sql_mode              = 'NO_AUTO_VALUE_ON_ZERO' */ ;
 DELIMITER ;;
-CREATE DEFINER=`root`@`localhost` PROCEDURE `findByCityAndBetweenDates_procedure`(in ciudadName varchar(255), in fechaInicio date, in fechaFin date)
+CREATE PROCEDURE `findByCityAndBetweenDates_procedure`(in ciudadName varchar(255), in fechaInicio date, in fechaFin date)
 BEGIN
 SELECT * from productos p join ciudades c where p.ciudad_id = c.id AND c.ciudad_nombre = ciudadName AND p.id not in 
 (SELECT prod.id FROM productos prod JOIN reservas r ON r.producto_id = prod.id where
