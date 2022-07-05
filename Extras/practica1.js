@@ -51,8 +51,10 @@ function countArray(array) {
       negativos += 1;
     }
   }
-  console.log((positivos / array.length).toFixed(6));
-  console.log((negativos / array.length).toFixed(6));
-  console.log((ceros / array.length).toFixed(6));
+  let pos = (positivos / array.length).toFixed(6);
+  let neg = (negativos / array.length).toFixed(6);
+  let zer = (ceros / array.length).toFixed(6);
+
+  console.log(pos + "\n" + neg + "\n" + zer);
 }
 countArray(arr);
