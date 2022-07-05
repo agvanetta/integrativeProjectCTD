@@ -32,5 +32,23 @@ function countArray(arr) {
 
   console.log(pos + "\n" + neg + "\n" + zer);
 }
-countArray(arr);
+// countArray(arr);
 //3-Staircase detail
+function Staircase(n) {
+  let espacios = " ";
+  let simbolo = "#";
+
+  for (let i = 0; i < n; i++) {
+    let pizarra = "";
+    for (let b = n; b > n - n; b--) {
+      if (b - 2 < i) {
+        pizarra += simbolo;
+      } else {
+        pizarra += espacios;
+      }
+    }
+    console.log(pizarra);
+  }
+}
+// 4- Mini-Max Sum
+
