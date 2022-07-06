@@ -51,4 +51,16 @@ function Staircase(n) {
   }
 }
 // 4- Mini-Max Sum
-
+let arreglo = [1,5,3,4,2];
+function minMax(arr){
+  let ordenado = arr.sort()
+  let minimos = 0;
+  let maximos = 0;
+  let length = arr.length-1
+  for (let i = 0, i2 = length; i <length; i++ , i2--) {
+    minimos += ordenado[i];
+    maximos += ordenado[i2];
+  }
+  console.log(minimos+" "+maximos)
+}
+// 5- Birthday Cake Candles
