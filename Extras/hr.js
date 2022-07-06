@@ -78,3 +78,4 @@ function birthdayCakeCandlesen(candles) {
   return tallClandles
 }
 birthdayCakeCandlesen(candlesEj);
+// 6- Time Conversion
