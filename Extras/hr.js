@@ -104,6 +104,17 @@ function timeConversion(s) {
 }
 // 6- AngryProfessor(k, a)
 function angryProfessor(k, a) {
+  let keepClass = "";
+  let onTime = 0;
+  // Write your code here
+  for (let i = 0; i < a.length; i++) {
+    a[i] <= 0 ? (onTime += 1) : "";
+  }
+  onTime >= k ? (keepClass = "NO") : (keepClass = "YES");
+  return keepClass;
+}
+// 7- beautifulDays(i, j, k)
+function beautifulDays(i, j, k) {
   // Write your code here
 
 }
