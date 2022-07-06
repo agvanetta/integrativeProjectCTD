@@ -113,8 +113,17 @@ function angryProfessor(k, a) {
   onTime >= k ? (keepClass = "NO") : (keepClass = "YES");
   return keepClass;
 }
-// 7- beautifulDays(i, j, k)
+// 7- beautifulDays(i, j, k) => const convertAndReverse = n.toString().split("").reverse().join("");
 function beautifulDays(i, j, k) {
-  // Write your code here
+  let start = i;
+  let end = j;
+  let rev = 0;
+  let beatifulDays = 0
 
+  for (let i = start; i <= end; i++) {
+    rev = i.toString().split("").reverse().join("");
+    (i - Number(rev)) % k  === 0 ? beatifulDays+=1 : "";
+  }
+  return beatifulDays;
 }
+console.log(beautifulDays(13,45,3))
