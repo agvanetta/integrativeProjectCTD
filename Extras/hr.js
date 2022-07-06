@@ -75,7 +75,35 @@ function birthdayCakeCandlesen(candles) {
     }
   }
   console.log(tallClandles);
-  return tallClandles
+  return tallClandles;
 }
-birthdayCakeCandlesen(candlesEj);
-// 6- Time Conversion
+// 6- Time Conversion s
+s = "12:45:54PM"; // 00:12:00PM
+function timeConversion(s) {
+  let slice = s.slice(-2);
+  let hours = Number(s.slice(0, 2));
+  let minutes = Number(s.slice(3, 5));
+  let seconds = Number(s.slice(6, 8));
+  let result = "";
+  if (slice == "AM") {
+    result =
+      (hours == 12 ? "00" : hours < 10 ? "0" + hours : hours) +
+      ":" +
+      (minutes < 10 ? "0" + minutes : minutes) +
+      ":" +
+      (seconds < 10 ? "0" + seconds : seconds);
+  } else {
+    result =
+      (hours == 12 ? 12 : hours + 12) +
+      ":" +
+      (minutes < 10 ? "0" + minutes : minutes) +
+      ":" +
+      (seconds < 10 ? "0" + seconds : seconds);
+  }
+  return result;
+}
+// 6- AngryProfessor(k, a)
+function angryProfessor(k, a) {
+  // Write your code here
+
+}
