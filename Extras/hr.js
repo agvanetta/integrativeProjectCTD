@@ -51,16 +51,30 @@ function Staircase(n) {
   }
 }
 // 4- Mini-Max Sum
-let arreglo = [1,5,3,4,2];
-function minMax(arr){
-  let ordenado = arr.sort()
+let arreglo = [1, 5, 3, 4, 2];
+function minMax(arr) {
+  let ordenado = arr.sort();
   let minimos = 0;
   let maximos = 0;
-  let length = arr.length-1
-  for (let i = 0, i2 = length; i <length; i++ , i2--) {
+  let length = arr.length - 1;
+  for (let i = 0, i2 = length; i < length; i++, i2--) {
     minimos += ordenado[i];
     maximos += ordenado[i2];
   }
-  console.log(minimos+" "+maximos)
+  console.log(minimos + " " + maximos);
 }
 // 5- Birthday Cake Candles
+candlesEj = [5, 2, 1, 3, 3];
+function birthdayCakeCandlesen(candles) {
+  let tallClandles = 0;
+  let array2 = candles.sort();
+  let condition = array2[array2.length - 1];
+  for (let i = 0; i < candles.length; i++) {
+    if (candles[i] === condition) {
+      tallClandles += 1;
+    }
+  }
+  console.log(tallClandles);
+  return tallClandles
+}
+birthdayCakeCandlesen(candlesEj);
