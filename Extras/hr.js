@@ -126,4 +126,8 @@ function beautifulDays(i, j, k) {
   }
   return beatifulDays;
 }
-console.log(beautifulDays(13,45,3))
+// 8-viralAdvertising(n)
+function viralAdvertising(n) {
+  // Write your code here
+
+}

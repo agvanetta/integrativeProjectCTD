@@ -255,7 +255,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"Hotel hotel\",\r\n    \"title\":\"El lujo hecho hotel\",\r\n    \"description\": \"El hotel pp ddjdksjfhjkdsf ksjfhkdsjfh sfdhskjfhksdjf sdkfhsdjkfskf\",\r\n    \"categoria\": {\"id\":2},\r\n    \"caracteristica\": {\r\n        \"kitchen\": true,\r\n        \"tv\": true,\r\n        \"airConditioning\": true,\r\n        \"petsAllowed\": false,\r\n        \"freeParking\": false,\r\n        \"pool\": false,\r\n        \"wifi\": true\r\n    },\r\n    \"ciudad\": {\"id\":1},\r\n    \"imagen\": [{\"title\": \"principal\",\r\n            \"url\": \"https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/335987727.jpg?k=ff98973c73771384f41682fb6d9928d5cb695544fc0aac21c95485129a5a1579&o=&hp=1\"}],\r\n    \"reserva\": [\r\n        {\r\n            \"horaComienzo\": \"15:00:00\",\r\n            \"fechaInicio\": \"2022-12-03\",\r\n            \"fechaFin\": \"2022-12-05\"\r\n        },\r\n        {\r\n            \"horaComienzo\": \"16:00:00\",\r\n            \"fechaInicio\": \"2021-12-03\",\r\n            \"fechaFin\": \"2023-12-05\"\r\n        }\r\n    ],\r\n    \"domicilio\": \"pepejuancho\",\r\n    \"latitud\": \"pepe\",\r\n    \"longitud\":\"pepito\",\r\n    \"politicas\": {\r\n            \"checkout\": \"14:00\",\r\n            \"fiesta\": true,\r\n            \"fumar\": true,\r\n            \"distanciamiento\": true,\r\n            \"detectorHumo\": true,\r\n            \"depositoSeguridad\": true,\r\n            \"cancelacion\": true\r\n        },\r\n    \"estadia\": 2500    \r\n}",
+							"raw": "{\r\n    \"name\": \"Hotel hotel\",\r\n    \"title\":\"El lujo hecho hotel\",\r\n    \"description\": \"El hotel pp ddjdksjfhjkdsf ksjfhkdsjfh sfdhskjfhksdjf sdkfhsdjkfskf\",\r\n    \"categoria\": {\"id\":2},\r\n    \"caracteristica\": {\r\n        \"kitchen\": true,\r\n        \"tv\": true,\r\n        \"airConditioning\": true,\r\n        \"petsAllowed\": false,\r\n        \"freeParking\": false,\r\n        \"pool\": false,\r\n        \"wifi\": true\r\n    },\r\n    \"ciudad\": {\"id\":1},\r\n    \"imagen\": [{\"title\": \"principal\",\r\n            \"url\": \"https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/335987727.jpg?k=ff98973c73771384f41682fb6d9928d5cb695544fc0aac21c95485129a5a1579&o=&hp=1\"}],\r\n    \"reserva\": [\r\n        {\r\n            \"horaComienzo\": \"15:00:00\",\r\n            \"fechaInicio\": \"2022-12-03\",\r\n            \"fechaFin\": \"2022-12-05\"\r\n        },\r\n        {\r\n            \"horaComienzo\": \"16:00:00\",\r\n            \"fechaInicio\": \"2021-12-03\",\r\n            \"fechaFin\": \"2023-12-05\"\r\n        }\r\n    ],\r\n    \"domicilio\": \"pepejuancho\",\r\n    \"latitud\": \"pepe\",\r\n    \"longitud\":\"pepito\",\r\n    \"politicas\": {\r\n            \"checkout\": \"14:00\",\r\n            \"fiesta\": true,\r\n            \"fumar\": true,\r\n            \"distanciamiento\": true,\r\n            \"detectorHumo\": true,\r\n            \"depositoSeguridad\": true,\r\n            \"cancelacionUno\": true,\r\n            \"cancelacionDos\": true,\r\n            \"cancelacionTres\": true\r\n        },\r\n    \"estadia\": 2500,\r\n    \"usuario\": {\"id\":13}    \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -538,7 +538,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\": 12,\r\n    \"name\": \"Hotel hotel\",\r\n    \"title\":\"El lujo hecho hotel\",\r\n    \"description\": \"El hotel pp ddjdksjfhjkdsf ksjfhkdsjfh sfdhskjfhksdjf sdkfhsdjkfskf\",\r\n    \"categoria\": {\r\n        \"id\":12,\r\n        \"title\": \"Hoteles\",\r\n        \"description\": \"Hoteles varios\",\r\n        \"imgUrl\": \"hoteles.com.test\"\r\n        },\r\n    \"caracteristica\": {\r\n        \"kitchen\": true,\r\n        \"tv\": true,\r\n        \"airConditioning\": true,\r\n        \"petsAllowed\": false,\r\n        \"freeParking\": false,\r\n        \"pool\": false,\r\n        \"wifi\": true\r\n    },\r\n    \"ciudad\": {\r\n        \"id\":1,\r\n        \"pais\": {\"id\": 1}\r\n        },\r\n    \"imagen\": [{\"title\": \"principal\",\r\n            \"url\": \"https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/335987727.jpg?k=ff98973c73771384f41682fb6d9928d5cb695544fc0aac21c95485129a5a1579&o=&hp=1\"}],\r\n    \"reserva\": [\r\n        {\r\n            \"horaComienzo\": \"15:00:00\",\r\n            \"fechaInicio\": \"2022-12-03\",\r\n            \"fechaFin\": \"2022-12-05\"\r\n        },\r\n        {\r\n            \"horaComienzo\": \"16:00:00\",\r\n            \"fechaInicio\": \"2021-12-03\",\r\n            \"fechaFin\": \"2023-12-05\"\r\n        }\r\n    ],\r\n    \"domicilio\": \"pepejuancho\",\r\n    \"latitud\": \"pepe\",\r\n    \"longitud\":\"pepito\",\r\n    \"politicas\": {\r\n            \"checkout\": \"14:00\",\r\n            \"fiesta\": true,\r\n            \"fumar\": true,\r\n            \"distanciamiento\": true,\r\n            \"detectorHumo\": true,\r\n            \"depositoSeguridad\": true,\r\n            \"cancelacion\": true\r\n        }     \r\n}",
+							"raw": "{\r\n    \"id\": 2,\r\n    \"name\": \"Hotel hotel\",\r\n    \"title\":\"El lujo hecho hotel\",\r\n    \"description\": \"El hotel pp ddjdksjfhjkdsf ksjfhkdsjfh sfdhskjfhksdjf sdkfhsdjkfskf\",\r\n    \"categoria\": {\r\n        \"id\":2\r\n        },\r\n    \"caracteristica\": {\r\n        \"kitchen\": true,\r\n        \"tv\": true,\r\n        \"airConditioning\": true,\r\n        \"petsAllowed\": false,\r\n        \"freeParking\": false,\r\n        \"pool\": false,\r\n        \"wifi\": true\r\n    },\r\n    \"ciudad\": {\"id\":1},\r\n    \"imagen\": [{\"title\": \"principal\",\r\n            \"url\": \"https://t-cf.bstatic.com/xdata/images/hotel/max1280x900/335987727.jpg?k=ff98973c73771384f41682fb6d9928d5cb695544fc0aac21c95485129a5a1579&o=&hp=1\"}],\r\n    \"reserva\": [\r\n        {\r\n            \"horaComienzo\": \"15:00:00\",\r\n            \"fechaInicio\": \"2022-12-03\",\r\n            \"fechaFin\": \"2022-12-05\"\r\n        },\r\n        {\r\n            \"horaComienzo\": \"16:00:00\",\r\n            \"fechaInicio\": \"2021-12-03\",\r\n            \"fechaFin\": \"2023-12-05\"\r\n        }\r\n    ],\r\n    \"domicilio\": \"pepejuancho\",\r\n    \"latitud\": \"pepe\",\r\n    \"longitud\":\"pepito\",\r\n    \"politicas\": {\r\n            \"checkout\": \"14:00\",\r\n            \"fiesta\": true,\r\n            \"fumar\": true,\r\n            \"distanciamiento\": true,\r\n            \"detectorHumo\": true,\r\n            \"depositoSeguridad\": true,\r\n            \"cancelacionUno\": true,\r\n            \"cancelacionDos\": true,\r\n            \"cancelacionTres\": true\r\n        },\r\n    \"estadia\": 2500,\r\n    \"usuario\": {\"id\":13}    \r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -546,13 +546,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}productos/update/12",
+							"raw": "{{URL}}productos/update/32",
 							"host": [
 								"{{URL}}productos"
 							],
 							"path": [
 								"update",
-								"12"
+								"32"
 							]
 						}
 					},
@@ -1128,7 +1128,8 @@
 									"\r",
 									"const jsonData = pm.response.json();\r",
 									"\r",
-									"pm.globals.set(\"usuarioId\", jsonData.id);"
+									"pm.globals.set(\"usuarioId\", jsonData.id);\r",
+									"pm.globals.set(\"verificacionCode\", jsonData.verificationCode);"
 								],
 								"type": "text/javascript"
 							}
@@ -1142,7 +1143,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Lionel\",\r\n    \"apellido\": \"Messi\",\r\n    \"email\": \"federicofpaz@gmail.com\",\r\n    \"contrasenia\": \"Grupo52022\",\r\n    \"telefono\": \"+54245623672\",\r\n    \"roles\": {\"id\":1}\r\n}",
+							"raw": "{\r\n    \"nombre\": \"Federico\",\r\n    \"apellido\": \"Paz\",\r\n    \"email\": \"federicofpaz@gmail.com\",\r\n    \"contrasenia\": \"Grupo52022\",\r\n    \"telefono\": \"+54245623672\",\r\n    \"roles\": {\"id\":1}\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1162,19 +1163,19 @@
 					"response": []
 				},
 				{
-					"name": "Create Admin",
+					"name": "Update User",
 					"event": [
 						{
 							"listen": "test",
 							"script": {
 								"exec": [
 									"pm.test(\"Successful POST request\", () => {\r",
-									"    pm.expect(pm.response.code).to.be.oneOf([201]);\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);\r",
 									"});\r",
 									"\r",
 									"const jsonData = pm.response.json();\r",
-									"\r",
-									"pm.globals.set(\"usuarioId\", jsonData.id);"
+									"pm.globals.set(\"tokenDeAcceso\", jsonData.tokenDeAcceso);\r",
+									"pm.globals.set(\"verificacionCode\", jsonData.verificationCode);"
 								],
 								"type": "text/javascript"
 							}
@@ -1182,13 +1183,20 @@
 					],
 					"request": {
 						"auth": {
-							"type": "noauth"
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenDeAcceso}}",
+									"type": "string"
+								}
+							]
 						},
-						"method": "POST",
+						"method": "PUT",
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"nombre\": \"Lionel\",\r\n    \"apellido\": \"Messi\",\r\n    \"email\": \"messilionelmessias@test.com\",\r\n    \"contrasenia\": \"Grupo52022\",\r\n    \"telefono\": \"+54245623672\",\r\n    \"roles\": {\"id\":2}\r\n}",
+							"raw": "{\r\n    \"id\": 17,\r\n    \"nombre\": \"Federico\",\r\n    \"apellido\": \"Messi\",\r\n    \"email\": \"federicofpaz@gmail.com\",\r\n    \"telefono\": \"+54245623670\",\r\n    \"roles\": {\"id\":1}\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -1196,13 +1204,187 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}usuarios/registrar/admin",
+							"raw": "{{URL}}usuarios/updateUser",
 							"host": [
 								"{{URL}}usuarios"
 							],
 							"path": [
-								"registrar",
-								"admin"
+								"updateUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find By Id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Usuarios load must be valid and have a body\", () => {\r",
+									"    pm.response.to.have.status(200);\r",
+									"    pm.response.to.be.withBody;\r",
+									"    pm.response.to.be.json;\r",
+									"    pm.response.to.be.an(\"object\");\r",
+									"});\r",
+									"\r",
+									"const jsonData = pm.response.json();\r",
+									"const prod = jsonData[0];\r",
+									"\r",
+									"let usuariosSchema = {\r",
+									"    \"properties\": {\r",
+									"        \"id\": {\"type\": \"integer\"},\r",
+									"        \"nombre\": {\"type\": \"string\"},\r",
+									"        \"apellido\": {\"type\": \"string\"},\r",
+									"        \"email\": {\"type\": \"string\"},\r",
+									"        \"contraseña\": {\"type\": \"string\"},\r",
+									"        \"telefono\": {\"type\": \"string\"},\r",
+									"        \"roles\": {\r",
+									"            \"id\": {\"type\": \"integer\"},\r",
+									"            \"name\": {\"type\": \"string\"}\r",
+									"        }\r",
+									"    }\r",
+									"};\r",
+									"\r",
+									"tv4.addSchema('usuariosSchema', usuariosSchema);\r",
+									"\r",
+									"pm.test(\"Usuarios schemas is valid\", () => {\r",
+									"    pm.expect(tv4.validate(jsonData, usuariosSchema)).to.be.true;\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}usuarios/11",
+							"host": [
+								"{{URL}}usuarios"
+							],
+							"path": [
+								"11"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Verify",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Usuarios load must be valid and have a body\", () => {\r",
+									"    pm.response.to.have.status(200);\r",
+									"    pm.response.to.be.withBody;\r",
+									"    pm.response.to.be.json;\r",
+									"    pm.response.to.be.an(\"object\");\r",
+									"});\r",
+									"\r",
+									"const jsonData = pm.response.json();\r",
+									"const prod = jsonData[0];\r",
+									"\r",
+									"let usuariosSchema = {\r",
+									"    \"properties\": {\r",
+									"        \"id\": {\"type\": \"integer\"},\r",
+									"        \"nombre\": {\"type\": \"string\"},\r",
+									"        \"apellido\": {\"type\": \"string\"},\r",
+									"        \"email\": {\"type\": \"string\"},\r",
+									"        \"contraseña\": {\"type\": \"string\"},\r",
+									"        \"telefono\": {\"type\": \"string\"},\r",
+									"        \"roles\": {\r",
+									"            \"id\": {\"type\": \"integer\"},\r",
+									"            \"name\": {\"type\": \"string\"}\r",
+									"        }\r",
+									"    }\r",
+									"};\r",
+									"\r",
+									"tv4.addSchema('usuariosSchema', usuariosSchema);\r",
+									"\r",
+									"pm.test(\"Usuarios schemas is valid\", () => {\r",
+									"    pm.expect(tv4.validate(jsonData, usuariosSchema)).to.be.true;\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}usuarios/verify/{{verificacionCode}}",
+							"host": [
+								"{{URL}}usuarios"
+							],
+							"path": [
+								"verify",
+								"{{verificacionCode}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Password",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", () => {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200, 201]);\r",
+									"});\r",
+									"\r",
+									"const jsonData = pm.response.json();\r",
+									"pm.globals.set(\"tokenDeAcceso\", jsonData.tokenDeAcceso);\r",
+									"pm.globals.set(\"verificacionCode\", jsonData.verificationCode);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{tokenDeAcceso}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 15,\r\n    \"contrasenia\": \"Grupo52022\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}usuarios/updatePassword",
+							"host": [
+								"{{URL}}usuarios"
+							],
+							"path": [
+								"updatePassword"
 							]
 						}
 					},
@@ -1245,7 +1427,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"horaComienzo\": \"19:00:00\",\r\n    \"fechaInicio\": \"2022-12-03\",\r\n    \"fechaFin\": \"2022-12-05\",\r\n    \"producto\": {\"id\":1},\r\n    \"usuario\": {\"id\":44}\r\n}",
+							"raw": "{\r\n    \"horaComienzo\": \"19:00:00\",\r\n    \"fechaInicio\": \"2022-12-03\",\r\n    \"fechaFin\": \"2022-12-05\",\r\n    \"producto\": {\"id\":1},\r\n    \"usuario\": {\"id\":10}\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
