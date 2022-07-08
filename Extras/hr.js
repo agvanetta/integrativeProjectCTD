@@ -118,16 +118,17 @@ function beautifulDays(i, j, k) {
   let start = i;
   let end = j;
   let rev = 0;
-  let beatifulDays = 0
+  let beatifulDays = 0;
 
   for (let i = start; i <= end; i++) {
     rev = i.toString().split("").reverse().join("");
-    (i - Number(rev)) % k  === 0 ? beatifulDays+=1 : "";
+    (i - Number(rev)) % k === 0 ? (beatifulDays += 1) : "";
   }
   return beatifulDays;
 }
-// 8-viralAdvertising(n)
-function viralAdvertising(n) {
-  // Write your code here
-
+// 8-gradingStudents
+function gradingStudents(grades) {
+  return grades.map(function(grade)  {
+    return (grade >= 38 && grade % 5 >= 3) ? grade + 5 - (grade % 5) : grade;
+});
 }
