@@ -148,5 +148,27 @@ function divisibleSumPairs(n, k, ar) {
 // 10 - migratoryBirds
 function migratoryBirds(arr) {
   // Write your code here
+  let birdTipe = 6;
+  let count = -1;
+  let result = 0;
 
+  for (let i = 0; i < arr.length; i++) {
+    arr.forEach((element) => {
+      if (element === arr[i]) {
+        count += 1;
+      }
+    });
+    if (count > result) {
+      birdTipe = arr[i];
+      result = count;
+      count = -1;
+    } else if (count === result && arr[i] < birdTipe) {
+      birdTipe = arr[i];
+      result = count;
+      count = -1;
+    }
+    count = -1;
+  }
+  return birdTipe;
 }
+// 11- Time Machine
