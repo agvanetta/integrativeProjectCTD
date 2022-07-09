@@ -171,4 +171,23 @@ function migratoryBirds(arr) {
   }
   return birdTipe;
 }
-// 11- Time Machine
+// 11- breakingRecords
+function breakingRecords(scores) {
+  // Write your code here
+  let highest = scores[0];
+  let lowest = scores[0];
+  let countH = 0;
+  let countL = 0;
+
+  for (let i = 1; i < scores.length; i++) {
+    if (scores[i] > highest) {
+      countH += 1;
+      highest = scores[i];
+    } else if (scores[i] < lowest) {
+      countL += 1;
+      lowest = scores[i];
+    }
+  }
+  return [countH, countL];
+}
+// 12- breakingRecords
