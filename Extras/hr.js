@@ -128,7 +128,25 @@ function beautifulDays(i, j, k) {
 }
 // 8-gradingStudents
 function gradingStudents(grades) {
-  return grades.map(function(grade)  {
-    return (grade >= 38 && grade % 5 >= 3) ? grade + 5 - (grade % 5) : grade;
-});
+  return grades.map(function (grade) {
+    return grade >= 38 && grade % 5 >= 3 ? grade + 5 - (grade % 5) : grade;
+  });
+}
+// 9- divisibleSumPairs
+function divisibleSumPairs(n, k, ar) {
+  // Write your code here
+  let count = 0;
+  for (let i = 0; i < ar.length; i++) {
+    for (let j = i + 1; j < ar.length; j++) {
+      if ((ar[i] + ar[j]) % k === 0) {
+        count += 1;
+      }
+    }
+  }
+  return count;
+}
+// 10 - migratoryBirds
+function migratoryBirds(arr) {
+  // Write your code here
+
 }
