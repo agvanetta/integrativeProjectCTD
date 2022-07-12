@@ -51,6 +51,22 @@ function getTotalX(a, b) {
       }
     }
   }
-  //Significa esto: ¿Por cada valor ( int) en la matriz ( a), es xdivisible por ese valor?
+  //Significa esto: ¿Por cada valor (int) en la matriz (a), es xdivisible por ese valor?
   return validCount;
+}
+// catAndMouse
+function catAndMouse(x, y, z) {
+  let difA = (x - z) ** 2;
+  let difB = (y - z) ** 2;
+  let response = "";
+
+  if (difA === difB) {
+    response = "Mouse C";
+  } else if (difA < difB) {
+    response = "Cat A";
+  } else {
+    response = "Cat B";
+  }
+
+  return response;
 }
