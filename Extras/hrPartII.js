@@ -39,3 +39,18 @@ function kangaroo(x1, v1, x2, v2) {
   //This code can be refactored algebraically using the ternary operator in one line:
   //return v2 < v1 && (x2 - x1) % (v1 - v2) == 0 ? "YES" : "NO";
 }
+// getTotalX
+function getTotalX(a, b) {
+  // Write your code here
+  let validCount = 0;
+
+  for (let x = 1; x <= 100; x++) {
+    if (a.every((int) => x % int == 0)) {
+      if (b.every((int) => int % x == 0)) {
+        validCount++;
+      }
+    }
+  }
+  //Significa esto: ¿Por cada valor ( int) en la matriz ( a), es xdivisible por ese valor?
+  return validCount;
+}
