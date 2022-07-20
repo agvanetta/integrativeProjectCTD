@@ -70,3 +70,26 @@ function catAndMouse(x, y, z) {
 
   return response;
 }
+// fizzBuzz
+function fizzBuzz(n) {
+  // Write your code here
+  for (var i = 1; i <= n; i++) {
+    if (i % 3 == 0 && i % 5 == 0) console.log("FizzBuzz");
+    else if (i % 3 == 0) console.log("Fizz");
+    else if (i % 5 == 0) console.log("Buzz");
+    else console.log(i);
+  }
+}
+// bonAppetit
+function bonAppetit(bill, k, b) {
+  // Write your code here
+  let response = "Bon Appetit";
+  let totalCount = 0;
+  bill.forEach((element) => (totalCount += element));
+  let divCount = (totalCount - bill[k]) / 2;
+  if (b - divCount > 0) {
+    response = b-divCount;
+  }
+  console.log(response);
+}
+bonAppetit([3, 10, 2, 9], 1, 12);
