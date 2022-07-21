@@ -93,3 +93,10 @@ function bonAppetit(bill, k, b) {
   console.log(response);
 }
 bonAppetit([3, 10, 2, 9], 1, 12);
+
+function coubnt(numbers){
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+  }
+}
